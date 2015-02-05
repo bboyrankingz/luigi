@@ -154,6 +154,10 @@ smtp_timeout
   Optionally sets the number of seconds after which smtp attempts should
   time out.
 
+smtp_starttls
+  Optionally Put the SMTP connection in TLS (Transport Layer Security) mode.
+  Defaults to False
+
 tmp-dir
   DEPRECATED - use hdfs-tmp-dir instead
 
